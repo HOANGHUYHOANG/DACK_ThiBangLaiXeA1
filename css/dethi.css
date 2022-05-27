@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text-center {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: #34a853;
+    margin: 20px 0 10px;
+    border-radius: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+#myHeader a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.btn-success,
+.btn-item button {
+    border-radius: 4px;
+    border: unset;
+    background-color: #47a447;
+    color: #fff;
+    width: 0%;
+}
+
+.left-container .btn-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left-container .btn-list .btn-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.15em;
+    margin-bottom: 0.3em;
+    flex: 0 1 50px;
+    height: 40px;
+}
+
+.left-container .btn-list .btn-item button {
+    flex: 1 1 100%;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.left-container {
+    width: 35%;
+    padding: 15px;
+    border: 1px solid #47a447;
+    margin: 10px;
+    display: inline-block;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1, 7;
+    margin: 0 15rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer {
+    width: 100%;
+    display: inline-block;
+}
+
+.right-container {
+    margin: 10px 15px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.answer button {
+    width: 100%;
+    padding-top: 10px;
+}
+
+ul,
+li {
+    list-style-type: unset;
+}
+
+.right-container .question {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.paper {
+    padding-left: 0;
+    margin: 20px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.right-container .finish {
+    margin-top: 1rem;
+    height: 55px;
+}
+
+.right-container .finish button {
+    width: 100%;
+    background-color: blue;
+    border: 1px solid blue;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.right-container .finish {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container .finish a {
+    border: 10.5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.answer ul {
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column nowrap;
+}
+
+.answer ul.checkbox-list li {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #3d3d3d;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 3rem;
+}
+
+.answer ul.checkbox-list li>* {
+    padding: 0 0.5rem;
+}
+
+#no_4,
+#mgs {
+    display: none;
+}
