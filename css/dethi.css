@@ -100,6 +100,11 @@ body {
     height: auto;
 }
 
+.question #imgs img {
+    height: auto;
+    width: 100%;
+}
+
 .answer button {
     width: 100%;
     padding-top: 10px;
@@ -171,5 +176,9 @@ li {
 
 #no_4,
 #mgs {
+    display: none;
+}
+
+.d-none {
     display: none;
 }
